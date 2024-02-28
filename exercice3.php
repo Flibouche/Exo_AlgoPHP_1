@@ -1,6 +1,6 @@
 <?php
 
-echo "<h2>Exercice n°3</h2>";
+echo "<h1>Exercice n°3</h1>";
 
 $oldPhrase = "Notre formation DL commence aujourd'hui";
 echo $oldPhrase."<br>";
