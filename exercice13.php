@@ -7,8 +7,11 @@ $nbNotes = count($notes);
 $sommeNotes = array_sum($notes);
 $moyenne = round($sommeNotes / $nbNotes , 2);
 
-foreach($notes as $listenote) {
+echo "Les notes obtenues par l'élève sont : ";
+for ($i = 0; $i < $nbNotes; $i ++) {
+   echo $notes[$i]." ";
 }
 
-echo "Les notes obtenues par l'élève sont : $listenote <br>";
+echo "<br>";
+
 echo "Sa moyenne générale est donc de : $moyenne";
