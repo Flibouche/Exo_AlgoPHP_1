@@ -14,11 +14,13 @@ function check_palindrome($phraseA) {
     $reverse = strrev($phraseA);
 
     if ($phraseA == $reverse) {
-        echo "C'est un palindrome !<br>";
+        return "C'est un palindrome !<br>";
     } 
     else {
-        echo "Ce n'est pas un palindrome !<br>";
+        return "Ce n'est pas un palindrome !<br>";
     }
+
+    //echo ($phraseA == $reverse) ? "palindrome" : "non palindrome";
 }
 
-check_palindrome($phraseA);
+echo check_palindrome($phraseA);
